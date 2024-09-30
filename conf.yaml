@@ -20,7 +20,7 @@ ollama:
   ORGANIZATION_ID: "org_eternity"
   PROJECT_ID: "project_glass"
   ## LLM name
-  MODEL: "llama3.1:latest"
+  MODEL: "qwen2.5:0.5b"
   # system prompt is at the very end of this file
   VERBOSE: False
 
@@ -55,7 +55,7 @@ VOICE_INPUT_ON: True
 MIC_IN_BROWSER: False # Deprecated and useless now. Do not enable it. Bad things will happen.
 
 # speech to text model options: "Faster-Whisper", "WhisperCPP", "Whisper", "AzureASR", "FunASR", "GroqWhisperASR"
-ASR_MODEL: "Faster-Whisper"
+ASR_MODEL: "FunASR"
 
 # Faster whisper config
 Faster-Whisper:
@@ -112,7 +112,7 @@ barkTTS:
 edgeTTS:
   # Check out doc at https://github.com/rany2/edge-tts
   # Use `edge-tts --list-voices` to list all available voices
-  voice: "en-US-AvaMultilingualNeural" #"zh-CN-XiaoxiaoNeural" # "ja-JP-NanamiNeural"
+  voice: "zh-CN-XiaoxiaoNeural" #"en-US-AvaMultilingualNeural"  # "ja-JP-NanamiNeural"
 
 # pyttsx3 doesn't have any config.
 
