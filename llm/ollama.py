@@ -159,7 +159,7 @@ class LLM(LLMInterface):
 def test():
     llm = LLM(
         base_url="http://localhost:11434/v1",
-        model="llama3:latest",
+        model="qwen2.5:0.5b",
         callback=print,
         system='You are a sarcastic AI chatbot who loves to the jokes "Get out and touch some grass"',
         organization_id="organization_id",
