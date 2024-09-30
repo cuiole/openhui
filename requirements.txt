@@ -9,7 +9,6 @@ pydub
 sounddevice
 soundfile
 playsound3
-faster_whisper
 scipy
 onnxruntime
 openai
